@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
     Real Person Certification
                          DESC
 
-    s.homepage     = 'https://github.com/cosmos33/MMFaceCertification--iOS.git'
+    s.homepage     = 'https://github.com/cosmos33/MMFaceCertification-iOS.git'
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
     s.author       = { 'ZhuXi' => 'zhu.xi@immomo.com' }
-    s.source       = { :git => 'https://github.com/cosmos33/MMFaceCertification--iOS.git', :tag => s.version.to_s }
+    s.source       = { :git => 'https://github.com/cosmos33/MMFaceCertification-iOS.git', :tag => s.version.to_s }
     
     s.ios.deployment_target = '9.0'
     s.xcconfig = {'ENABLE_BITCODE' => 'NO'}
