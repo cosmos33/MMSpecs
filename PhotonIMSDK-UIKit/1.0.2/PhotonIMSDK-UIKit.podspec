@@ -16,6 +16,11 @@ TODO: Add long description of the pod here.
   s.dependency 'protobuf-lib'
   s.dependency 'PhotonIMSDK'
   s.dependency 'MDLog'
+  s.dependency 'Masonry'
+  s.dependency 'SVProgressHUD'
+  s.dependency  'SDWebImage'
+  s.dependency  'AFNetworking'
+  s.dependency  'MJRefresh'
   s.frameworks = 'Foundation', 'UIKit','MMFoundation'
   s.public_header_files = 'PhotonIMSource/**/*.{h,m,c}'
   s.subspec 'CommonUI' do |s|
