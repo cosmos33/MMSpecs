@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name         = 'MMFaceCertification'
-    s.version      = '1.0.12'
+    s.version      = '1.0.14'
     s.summary      = 'MMFaceCertification Frameworks'
     s.module_name = 'MMFaceCertification'
     s.description      = <<-DESC
@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
     s.dependency 'Protobuf'
     s.dependency 'MMNNetwork'
     s.dependency 'MMFileService'
+    s.dependency 'GPUImage'
     
 end
     
