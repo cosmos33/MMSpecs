@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = 'Frameworks/**/*.framework'
     s.resource = 'Frameworks/MMFaceCertification.framework/*.bundle'
     
-    s.dependency 'MMCV'
+    s.dependency 'MMCV', '~> 1.0.14'
     s.dependency 'Protobuf'
     s.dependency 'MMNNetwork'
     s.dependency 'MMFileService'
