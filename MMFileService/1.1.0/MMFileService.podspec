@@ -9,7 +9,7 @@ DESC
 
 s.homepage         = 'https://www.momo.com/'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
-s.author           = { 'bi.s_fish' => 'sun.fei@immomo.com' }
+s.author           = { 'sun.fei' => '839648144@qq.com' }
 s.source           = { :git => 'https://github.com/cosmos33/MMFileService.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '9.0'
