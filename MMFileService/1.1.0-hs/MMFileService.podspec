@@ -7,7 +7,7 @@ s.description      = <<-DESC
 record log and upload
 DESC
 
-s.homepage         = 'https://www.momo.com/'
+s.homepage         = 'https://www.github.cosmos33/'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'sun.fei' => '839648144@qq.com' }
 s.source           = { :git => 'https://github.com/cosmos33/MMFileService.git', :tag => '1.1.0_hs' }
