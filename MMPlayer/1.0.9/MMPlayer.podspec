@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/cosmos33'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sun.fei@immomo.com' }
-  s.source           = { :git => 'https://github.com/cosmos33/MMPlayer.git', :tag => '1.0.7' }
+  s.source           = { :git => 'https://github.com/cosmos33/MMPlayer.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
   s.static_framework = true
