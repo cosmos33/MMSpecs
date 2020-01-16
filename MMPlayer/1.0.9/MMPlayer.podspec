@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.dependency 'MMVodMediaPlayer', '~> 1.0.0'
   s.dependency 'MDLog'
   s.dependency 'MCCSecret', '~> 1.0.0'
-  s.dependency 'MMFileService', '~> 1.3.0'
+  s.dependency 'MMFileService', '~> 1.2.1'
   s.dependency 'MMDevice', '~> 1.0.0'
 
 end
