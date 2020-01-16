@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/cosmos33'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sun.fei@immomo.com' }
-  s.source           = { :git => 'https://github.com/cosmos33/MMPlayer.git', :tag => '1.0.7' }
+  s.source           = { :git => 'https://github.com/cosmos33/MMPlayer.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
   s.static_framework = true
@@ -26,11 +26,11 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'Product/MMPlayer.framework'
   s.frameworks = 'SystemConfiguration'
 
-  s.dependency 'MMMediaProxyOnly'
-  s.dependency 'MMVodMediaPlayer'
+  s.dependency 'MMMediaProxyOnly', '~> 1.5.9.0'
+  s.dependency 'MMVodMediaPlayer', '~> 1.0.0'
   s.dependency 'MDLog'
-  s.dependency 'MCCSecret'
-  s.dependency 'MMFileService'
-  s.dependency 'MMDevice'
+  s.dependency 'MCCSecret', '~> 1.0.0'
+  s.dependency 'MMFileService', '~> 1.3.0'
+  s.dependency 'MMDevice', '~> 1.0.0'
 
 end
