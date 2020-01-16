@@ -26,11 +26,11 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'Product/MMPlayer.framework'
   s.frameworks = 'SystemConfiguration'
 
-  s.dependency 'MMMediaProxyOnly'
-  s.dependency 'MMVodMediaPlayer'
+  s.dependency 'MMMediaProxyOnly', '~> 1.5.9.0'
+  s.dependency 'MMVodMediaPlayer', '~> 1.0.0'
   s.dependency 'MDLog'
-  s.dependency 'MCCSecret'
-  s.dependency 'MMFileService'
-  s.dependency 'MMDevice'
+  s.dependency 'MCCSecret', '~> 1.0.0'
+  s.dependency 'MMFileService', '~> 1.3.0'
+  s.dependency 'MMDevice', '~> 1.0.0'
 
 end
