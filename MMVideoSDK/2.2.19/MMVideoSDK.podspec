@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { :git => 'https://github.com/cosmos33/MMVideoSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/cosmos33/MMVideoSDK.git', :tag => '2.2.18' }
 
   s.ios.deployment_target = '9.0'
 
