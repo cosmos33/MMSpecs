@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'Frameworks/**/*.framework'
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => '$(inherited) NO', 'OTHER_LDFLAGS' => '$(inherited) -ObjC'}
 
-  s.dependency 'MMMedia', '~> 2.3.2.3'
+  s.dependency 'MMMedia', '~> 2.3.3.0'
   s.dependency 'MMCV', '~> 1.0.19'
   s.dependency 'MMXEScene', '~> 4.2.1'
   s.dependency 'GPUImage'
