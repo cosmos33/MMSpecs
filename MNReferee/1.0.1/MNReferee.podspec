@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name         = 'MNReferee'
-    s.version      = '1.0.0'
+    s.version      = '1.0.1'
     s.author       = { 'Zhuxi' => 'zhu.xi@immomo.com' }
     s.homepage     = 'https://github.com/cosmos33/MNReferee'
     s.summary      = 'MNReferee Frameworks'
@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
     s.frameworks = 'UIKit', 'MobileCoreServices'
     s.vendored_frameworks = 'Frameworks/**/*.framework'
     s.resources = ['Frameworks/MNReferee.framework/MNRE_MRCA.cer', 'Frameworks/MNReferee.framework/mnreferee_config_data']
-    
+
 end
     
