@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PhotonIMSDK'
-  s.version          = '2.2.1'
+  s.version          = '2.2.2'
   s.summary          = 'A short description of PhotonIMSDK.'
 
   s.description      = <<-DESC
@@ -9,7 +9,7 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/cosmos33/PhotonIMSDK-iOS'
   s.author           = { 'cosmos33' => 'cosmossaas@gmail.com' }
-  s.source           = { :git => 'https://github.com/cosmos33/PhotonIMSDK-iOS.git', :tag => '2.2.2'}
+  s.source           = { :git => 'https://github.com/cosmos33/PhotonIMSDK-iOS.git', :tag => s.version.to_s}
   s.platform         = :ios, '10.0'
   s.ios.deployment_target = '10.0'
   s.static_framework = true
