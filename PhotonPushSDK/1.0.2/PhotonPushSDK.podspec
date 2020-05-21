@@ -16,7 +16,4 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'Frameworks/pushsdk.framework'
   s.resources = 'Frameworks/pushBudle.bundle'
   s.libraries = 'stdc++','z','c++'
-  s.xcconfig = {
-    'VALID_ARCHS' =>  'armv7 i386 arm64 x86_64',
-    }
 end
