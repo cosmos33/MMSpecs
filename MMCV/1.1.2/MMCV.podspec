@@ -31,6 +31,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'ZipArchive'
   s.dependency 'MCCSecret'
+  s.dependency 'MNReferee'
   s.dependency 'MMFileService'
   s.resources = 'Resources/*'
   
