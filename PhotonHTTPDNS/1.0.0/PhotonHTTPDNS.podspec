@@ -17,6 +17,7 @@ TODO: Add long description of the pod here.
   s.frameworks = 'Foundation'
   s.ios.libraries = 'c++'
   s.ios.libraries = 'stdc++'
+  s.ios.libraries = 'resolv'
   s.resources = 'Framework/PhotonDNSSource.bundle'
   s.vendored_frameworks = 'Framework/PhotonHTTPDNS.framework','Framework/Cronet.framework'
 end
