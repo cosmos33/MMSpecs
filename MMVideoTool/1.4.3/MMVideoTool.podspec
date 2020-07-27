@@ -19,7 +19,8 @@ Hh
   s.source_files = '**/*.{h,m,c,mm,metal,cpp}'
   s.resources = '**/*.{bundle}', '*.json'
   s.private_header_files = '**/BezierEvaluator.h'
-  #s.exclude_files = "Classes/Exclude"
+  #s.exclude_files = 'Products/MMVideoTool.bundle'
+s.vendored_frameworks = 'Products/MMVideoTool.framework'
   
   s.dependency 'MetalPetal'
   s.dependency 'GPUImage'
