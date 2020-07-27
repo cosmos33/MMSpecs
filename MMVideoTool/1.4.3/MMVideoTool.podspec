@@ -20,7 +20,7 @@ Hh
   s.resources = '**/*.{bundle}', '*.json'
   s.private_header_files = '**/BezierEvaluator.h'
   #s.exclude_files = "Classes/Exclude"
-  
+  s.static_framework = true 
   s.dependency 'MetalPetal'
   s.dependency 'GPUImage'
   
