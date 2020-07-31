@@ -1,0 +1,41 @@
+{
+  "requires_arc" : true,
+  "platforms" : {
+    "ios" : "9.0"
+  },
+  "pod_target_xcconfig" : {
+    "MTL_HEADER_SEARCH_PATHS" : "$(inherited) \"${PODS_CONFIGURATION_BUILD_DIR}\/MetalPetal\/MetalPetal.framework\/Headers\" \"${PODS_ROOT}\/Headers\/Public\/MetalPetal\"",
+    "METAL_LIBRARY_OUTPUT_DIR" : "${TARGET_BUILD_DIR}\/MMVideoTool.bundle\/"
+  },
+  "source_files" : "Frameworks\/MMVideoTool\/**\/*.{h,m,c,mm,metal,cpp}",
+  "license" : "None",
+  "version" : "0.4.9",
+  "resource_bundles" : {
+    "MMVideoTool" : ""
+  },
+  "description" : "Hh",
+  "name" : "MMVideoTool",
+  "summary" : "MMVideoTool,some useful video tool to process local video file",
+  "prefix_header_contents" : "#define SWIFTPM_MODULE_BUNDLE ([NSBundle bundleWithURL:[NSBundle.mainBundle URLForResource:@\"MMVideoTool\" withExtension:@\"bundle\"]])",
+  "resources" : [
+    "Frameworks\/MMVideoTool\/**\/*.{bundle}",
+    "Frameworks\/MMVideoTool\/*.json"
+  ],
+  "dependencies" : {
+    "MetalPetal" : [
+
+    ],
+    "GPUImage" : [
+
+    ]
+  },
+  "authors" : {
+    "nua.epic" : "yang.naichuan@immomo.com"
+  },
+  "source" : {
+    "tag" : "0.4.9",
+    "git" : "https:\/\/git.wemomo.com\/yang.naichuan\/MMVideoTool.git"
+  },
+  "homepage" : "No homepage",
+  "private_header_files" : "Frameworks\/MMVideoTool\/**\/BezierEvaluator.h"
+}
