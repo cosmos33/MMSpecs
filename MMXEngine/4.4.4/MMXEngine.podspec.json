@@ -15,7 +15,7 @@
   },
   "module_name": "MMXEngine",
   "source": {
-    "http":"https://say-public.oss-cn-beijing.aliyuncs.com/cosmos/XEngineArchive4.4.4Release.zip"
+    "http":"https://say-public.oss-cn-beijing.aliyuncs.com/cosmos/XEngine4.4.4Release.zip"
   },
   "public_header_files": "Headers/**/*.h",
   "source_files": "Headers/**/*.h",
