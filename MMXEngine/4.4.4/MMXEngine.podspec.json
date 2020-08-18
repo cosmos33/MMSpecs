@@ -1,0 +1,39 @@
+{
+  "name": "MMXEngine",
+  "version": "4.4.4",
+  "summary": "A short description of XEScene Renderer.",
+  "description": "MMXEngine is a 3D Game Engine For iOS.",
+  "homepage": "https://cosmos.immomo.com/",
+  "license": {
+    "type": "None"
+  },
+  "authors": {
+    "HongjieFu": "HongjieFu"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "module_name": "MMXEngine",
+  "source": {
+    "http":"https://say-public.oss-cn-beijing.aliyuncs.com/cosmos/XEngineArchive4.4.4Release.zip"
+  },
+  "public_header_files": "Headers/**/*.h",
+  "source_files": "Headers/**/*.h",
+  "vendored_libraries": [
+    "Libraries/*.a"
+  ],
+  "frameworks": [
+    "Foundation",
+    "CoreMotion",
+    "OpenAL",
+    "OpenGLES"
+  ],
+  "libraries": [
+    "c++",
+    "iconv"
+  ],
+  "xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "resources": "XEngine.bundle"
+}
