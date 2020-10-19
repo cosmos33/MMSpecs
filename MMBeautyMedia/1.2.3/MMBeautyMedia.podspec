@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMBeautyMedia'
-  s.version          = '1.2.3'
+  s.version          = '1.2.2'
   s.summary          = 'MMBeautyMedia'
 
   s.description      = <<-DESC
