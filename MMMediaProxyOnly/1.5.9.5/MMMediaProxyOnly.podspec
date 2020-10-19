@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/cosmos33'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Zou Guowei' => 'zou.guowei@immomo.com' }
-  s.source           = { :http => 'http://say-public.oss-cn-beijing.aliyuncs.com/cosmos/MMMediaProxyOnly1592.zip' }
+  s.source           = { :http => 'http://say-public.oss-cn-beijing.aliyuncs.com/cosmos/MMMediaProxyOnly1595.zip' }
   s.license          = { :type => 'MIT', :text => <<-LICENSE
     Copyright 2019
     LICENSE
