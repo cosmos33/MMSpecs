@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMBeautyMedia'
-  s.version          = '1.2.2'
+  s.version          = '1.2.3'
   s.summary          = 'MMBeautyMedia'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://cosmos.wemomo.com/beauty/wiki/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cosmos' => 'cosmossaas@gmail.com' }
-  s.source           = { :git => 'https://github.com/cosmos33/MMBeautyMedia-iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/cosmos33/MMBeautyMedia-iOS.git', :tag => '1.2.2' }
 
   s.ios.deployment_target = '10.0'
 
