@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.vendored_frameworks = 'MMBeautyKit Interact/Product/**/*.framework'
+  s.vendored_frameworks = 'MMBeautyKitInteract/Product/**/*.framework'
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => '$(inherited) NO', 'OTHER_LDFLAGS' => '$(inherited) -ObjC', 'MTL_LANGUAGE_REVISION' => 'Metal12', 'CLANG_WARN_DOCUMENTATION_COMMENTS' => '$(inherited) NO'}
 
   s.dependency 'MCCSecret'
