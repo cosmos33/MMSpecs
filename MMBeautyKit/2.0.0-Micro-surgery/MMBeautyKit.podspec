@@ -32,6 +32,6 @@ Pod::Spec.new do |s|
   s.dependency 'MMDevice'
   s.dependency 'MMBeautyMedia/Beauty'
   s.dependency 'MMBeautyMedia/Filter'
-  s.resources = 'Resources/*'
+  s.resources = 'MMBeautyKitMicro-surgery/Resources/*'
   
 end
