@@ -31,6 +31,6 @@ Pod::Spec.new do |s|
   s.dependency 'CosmosEncrypt'
   s.dependency 'MMDevice'
   s.dependency 'MMBeautyMedia/Beauty'
-  s.resources = 'Resources/*'
+  s.resources = 'MMBeautyKitBasic/Resources/*'
   
 end

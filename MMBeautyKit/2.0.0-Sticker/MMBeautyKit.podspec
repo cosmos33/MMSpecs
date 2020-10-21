@@ -32,6 +32,6 @@ Pod::Spec.new do |s|
   s.dependency 'MMDevice'
   s.dependency 'MMBeautyMedia'
   s.dependency 'MMXEngine'
-  s.resources = 'Resources/*'
+  s.resources = 'MMBeautyKitSticker/Resources/*'
   
 end

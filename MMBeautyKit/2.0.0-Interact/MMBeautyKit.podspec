@@ -33,6 +33,6 @@ Pod::Spec.new do |s|
   s.dependency 'MMBeautyMedia'
   s.dependency 'MMXEngine'
   s.dependency 'MetalPetal/Static'
-  s.resources = 'Resources/*'
+  s.resources = 'MMBeautyKitInteract/Resources/*'
   
 end
