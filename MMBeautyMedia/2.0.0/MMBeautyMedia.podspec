@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   s.subspec 'Beauty' do |sp|
     sp.vendored_frameworks = 'Product/CXBeautyKit.framework'
     sp.resources = 'Resources/Beauty/*'
+    sp.dependency 'MMCV'
   end
 
   s.subspec 'Filter' do |sp|
@@ -36,6 +37,7 @@ Pod::Spec.new do |s|
     sp.vendored_frameworks = 'Product/FaceDecorationKit.framework', 'Product/FaceDecorationKitMetalPetal.framework', 'Product/FaceDecorationKitX3D.framework'
     sp.resources = 'Resources/Sticker/*'
     sp.dependency 'MMXEngine'
+    sp.dependency 'MMCV'
   end
 
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => '$(inherited) NO', 'OTHER_LDFLAGS' => '$(inherited) -ObjC', 'MTL_LANGUAGE_REVISION' => 'Metal12', 'CLANG_WARN_DOCUMENTATION_COMMENTS' => '$(inherited) NO'}
