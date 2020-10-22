@@ -26,12 +26,12 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => '$(inherited) NO', 'OTHER_LDFLAGS' => '$(inherited) -ObjC', 'MTL_LANGUAGE_REVISION' => 'Metal12', 'CLANG_WARN_DOCUMENTATION_COMMENTS' => '$(inherited) NO'}
 
   s.dependency 'MCCSecret'
-  s.dependency 'MMCV'
+  s.dependency 'MMCV', '2.1.0-MMVideoSDK'
   s.dependency 'MMFileService'
   s.dependency 'CosmosEncrypt'
   s.dependency 'MMDevice'
   s.dependency 'MMBeautyMedia'
-  s.dependency 'MMXEngine'
+  s.dependency 'MMXEngine', '4.4.4-20200827.1913'
   s.resources = 'MMBeautyKitSticker/Resources/*'
   
 end
