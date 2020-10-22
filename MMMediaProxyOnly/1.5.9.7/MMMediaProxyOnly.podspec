@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name             = 'MMMediaProxyOnly'
-  s.version	= '1.5.9.6'
+  s.version	= '1.5.9.7'
   s.summary          = 'Pod for MMMediaProxyOnly'
   s.description      = '整合播放器代理库，以pod的形式对外开放。如有问题请及时沟通谢谢～'
   s.homepage         = 'https://github.com/cosmos33'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Zou Guowei' => 'zou.guowei@immomo.com' }
-  s.source = {:http => 'https://download.immomo.com/cosmos/MMMediaProxyOnly202010211832.zip'}
+  s.source = {:http => 'https://download.immomo.com/cosmos/MMMediaProxyOnly202010222050.zip'}
   s.license          = { :type => 'MIT', :text => <<-LICENSE
     Copyright 2019
     LICENSE
