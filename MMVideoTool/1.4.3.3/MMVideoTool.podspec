@@ -22,6 +22,7 @@ Hh
 
   s.exclude_files = 'Products/MMVideoTool.bundle'
   s.vendored_frameworks = 'Products/MMVideoTool.framework'
+  s.libraries = 'c++'
   
 
   #s.exclude_files = "Classes/Exclude"
