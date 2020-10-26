@@ -44,6 +44,6 @@ Pod::Spec.new do |s|
   end
 
   s.dependency 'GPUImage'
-  s.dependency 'MetalPetal', '1.6.0'
+  s.dependency 'MetalPetal'
 
 end
