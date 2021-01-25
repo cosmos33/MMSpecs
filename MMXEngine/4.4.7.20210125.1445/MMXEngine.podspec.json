@@ -25,6 +25,7 @@
   "frameworks": [
     "Foundation",
     "CoreMedia",
+    "CoreMotion",
     "AudioToolBox",
     "OpenAL",
     "OpenGLES"
