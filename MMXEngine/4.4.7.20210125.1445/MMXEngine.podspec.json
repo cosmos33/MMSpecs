@@ -31,7 +31,8 @@
   ],
   "libraries": [
     "c++",
-    "iconv"
+    "iconv",
+    "z"
   ],
   "xcconfig": {
     "ENABLE_BITCODE": "NO"
