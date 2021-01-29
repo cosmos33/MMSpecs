@@ -1,0 +1,32 @@
+{
+    "name": "JusticeKit",
+    "version": "2.5.0",
+    "summary": "Image Analysis SDK",
+    "description": "AntiSpam;\nFace Detect/Recognition;\nSimilar search;\nQRCode Recognition;",
+    "homepage": "https://git.wemomo.com/CI-JusticeRelease/iOS.git",
+    "license": {
+        "type": "Apache"
+    },
+    "authors": {
+        "tk.bfjmomo": "bu.fanjin@immomo.com",
+        "mg.beryl12": "luo.jiaxin@immomo.com"
+    },
+    "source": {
+        "http": "http://pivot-dispatcher.wemomo.com/iospod/50/9B/509B2484-ACA4-484C-A913-057EE2C116E320201203.zip"
+    },
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": false,
+    "static_framework": true,
+    "vendored_frameworks": "Framework/JusticeKit.framework",
+    "frameworks": "Accelerate",
+    "libraries": [
+        "iconv",
+        "c++"
+    ],
+    "origin_source": {
+        "git": "https://git.wemomo.com/CI-JusticeRelease/iOS.git",
+        "tag": "2.5.0"
+    }
+}
