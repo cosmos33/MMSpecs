@@ -34,5 +34,6 @@ Pod::Spec.new do |s|
   s.dependency 'MetalPetal/Static'
   s.dependency 'MMFileService', '~>1.3.0'
   s.dependency 'MDLog', '~> 1.2.4'
+  s.dependency 'MDREffectFilters'
   
 end
