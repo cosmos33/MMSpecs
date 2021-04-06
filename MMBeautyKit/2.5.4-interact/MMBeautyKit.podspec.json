@@ -28,7 +28,6 @@
     "dependencies": {
         "MCCSecret": [],
         "MMCV": [
-            "2.1.2-MMVideoSDK"
         ],
         "MMFileService": [],
         "CosmosEncrypt": [],
