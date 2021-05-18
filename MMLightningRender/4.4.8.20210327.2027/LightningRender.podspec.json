@@ -1,8 +1,8 @@
 {
-    "name": "LightningRender",
+    "name": "MMLightningRender",
     "version": "4.4.8.20210327.2027",
     "summary": "engine render",
-    "description": "LightningRender framework",
+    "description": "MMLightningRender framework",
     "homepage": "https://cosmos.immomo.com/",
     "license": {
         "type": "MIT",
@@ -17,7 +17,7 @@
     "platforms": {
         "ios": "9.0"
     },
-    "module_name": "LightningRender",
+    "module_name": "MMLightningRender",
     "static_framework": true,
     "public_header_files": "Headers/**/*.h",
     "source_files": "Headers/**/*.h",
