@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = 'MetalPetal'
-s.version      = '1.0'
+s.version      = '1.13.0'
 s.author       = { 'YuAo' => 'me@imyuao.com' }
 s.homepage     = 'https://github.com/MetalPetal/MetalPetal'
 s.summary      = 'GPU-accelerated image and video processing framework based on Metal.'
