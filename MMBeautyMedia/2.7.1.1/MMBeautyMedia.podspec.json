@@ -1,6 +1,6 @@
 {
     "name": "MMBeautyMedia",
-    "version": "2.7.1.0",
+    "version": "2.7.1.1",
     "summary": "MMBeautyMedia",
     "description": "beauty media",
     "homepage": "https://cosmos.wemomo.com/beauty/wiki/",
@@ -12,7 +12,7 @@
         "cosmos": "cosmossaas@gmail.com"
     },
     "source": {
-        "http": "https://download.immomo.com/cosmos/MMBeautyKit/2.7.1.0.zip"
+        "http": "https://download.immomo.com/cosmos/MMBeautyKit/2.7.1.3.zip"
     },
     "platforms": {
         "ios": "10.0"
