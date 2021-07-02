@@ -1,0 +1,39 @@
+{
+    "name": "MMBeautyKit",
+    "version": "2.7.1.3-basic",
+    "summary": "MMBeautyKit",
+    "description": "beauty kit",
+    "homepage": "https://cosmos.wemomo.com/beauty/wiki/",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "cosmos": "cosmossaas@gmail.com"
+    },
+    "source": {
+        "http": "https://download.immomo.com/cosmos/MMBeautyKit/2.7.1.9-basic.zip"
+    },
+    "platforms": {
+        "ios": "10.0"
+    },
+    "vendored_frameworks": "libraries/**/*.framework",
+    "resources": "resources/**/*.bundle",
+    "pod_target_xcconfig": {
+        "ENABLE_BITCODE": "$(inherited) NO",
+        "OTHER_LDFLAGS": "$(inherited) -ObjC",
+        "MTL_LANGUAGE_REVISION": "Metal12",
+        "CLANG_WARN_DOCUMENTATION_COMMENTS": "$(inherited) NO",
+        "GCC_PREPROCESSOR_DEFINITIONS": "STICKER=0"
+    },
+    "dependencies": {
+        "MCCSecret": [],
+        "PhotonHTTPDNS": [],
+        "MMCV": [],
+        "MMFileService": [],
+        "CosmosEncrypt": [],
+        "MMDevice": [],
+        "MMBeautyMedia/Beauty": [],
+        "MMBeautyMedia/Filter": []
+    }
+}
