@@ -32,8 +32,6 @@
         "CosmosEncrypt": [],
         "MMDevice": [],
         "MMBeautyMedia": [],
-        "MMXEngine": [
-            "4.4.4-20200827.1913"
-        ]
+        "MMXEngine": []
     }
 }
