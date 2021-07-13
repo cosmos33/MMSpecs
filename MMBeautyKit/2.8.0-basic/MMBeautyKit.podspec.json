@@ -1,6 +1,6 @@
 {
     "name": "MMBeautyKit",
-    "version": "2.8.0.0-basic",
+    "version": "2.8.0-basic",
     "summary": "MMBeautyKit",
     "description": "beauty kit",
     "homepage": "https://cosmos.wemomo.com/beauty/wiki/",
@@ -12,7 +12,7 @@
         "cosmos": "cosmossaas@gmail.com"
     },
     "source": {
-        "http": "https://download.immomo.com/cosmos/MMBeautyKit/2.8.0.0-basic.zip"
+        "http": "https://download.immomo.com/cosmos/MMBeautyKit/2.8.0-basic.zip"
     },
     "platforms": {
         "ios": "10.0"

@@ -1,6 +1,6 @@
 {
     "name": "MMBeautyMedia",
-    "version": "2.8.0.1",
+    "version": "2.8.0",
     "summary": "MMBeautyMedia",
     "description": "beauty media",
     "homepage": "https://cosmos.wemomo.com/beauty/wiki/",
@@ -12,7 +12,7 @@
         "cosmos": "cosmossaas@gmail.com"
     },
     "source": {
-        "http": "https://download.immomo.com/cosmos/MMBeautyKit/2.8.0.1.zip"
+        "http": "https://download.immomo.com/cosmos/MMBeautyKit/2.8.0.5.zip"
     },
     "platforms": {
         "ios": "10.0"
@@ -37,7 +37,8 @@
                 "resources/CXBeautyKit.bundle",
                 "resources/triangulation104.json",
                 "resources/triangulation137.json",
-                "resources/triangulation186.json"
+                "resources/triangulation186.json",
+                "resources/triangulation230.json"
             ],
             "dependencies": {
                 "MMCV": []

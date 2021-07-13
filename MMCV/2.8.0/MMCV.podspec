@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMCV'
-  s.version          = '2.8.0.1'
+  s.version          = '2.8.0'
   s.summary          = 'MMCV'
 
   s.description      = <<-DESC
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'Accelerate', 'CoreImage', 'AssetsLibrary'
   s.weak_frameworks = 'CoreML', 'Vision'
   s.libraries = 'c++'
-  s.vendored_frameworks = 'Framework/**/*.framework'
+  s.vendored_frameworks = 'MMCV-280/Framework/**/*.framework'
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => '$(inherited) NO', 'OTHER_LDFLAGS' => '$(inherited) -ObjC', 'MTL_LANGUAGE_REVISION' => 'Metal12', 'CLANG_WARN_DOCUMENTATION_COMMENTS' => '$(inherited) NO'}
 
   s.dependency 'ZipArchive'
