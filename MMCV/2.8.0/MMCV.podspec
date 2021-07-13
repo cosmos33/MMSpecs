@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'https://download.momoapk.com/cosmos/MMCV/2.8.0/MMCV-280.zip' }
+  s.source           = { http:'https://download.momoapk.com/cosmos/MMCV/2.8.0.3/MMCV.zip' }
 
   s.ios.deployment_target = '9.0'
 
   s.frameworks = 'Accelerate', 'CoreImage', 'AssetsLibrary'
   s.weak_frameworks = 'CoreML', 'Vision'
   s.libraries = 'c++'
-  s.vendored_frameworks = 'MMCV-280/Framework/**/*.framework'
+  s.vendored_frameworks = 'Frameworks/**/*.framework'
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => '$(inherited) NO', 'OTHER_LDFLAGS' => '$(inherited) -ObjC', 'MTL_LANGUAGE_REVISION' => 'Metal12', 'CLANG_WARN_DOCUMENTATION_COMMENTS' => '$(inherited) NO'}
 
   s.dependency 'ZipArchive'
