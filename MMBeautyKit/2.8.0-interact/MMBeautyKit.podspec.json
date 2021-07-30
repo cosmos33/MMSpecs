@@ -12,7 +12,7 @@
         "cosmos": "cosmossaas@gmail.com"
     },
     "source": {
-        "http": "https://download.immomo.com/cosmos/MMBeautyKit/2.8.0-interact.zip"
+        "http": "https://download.immomo.com/cosmos/MMBeautyKit/2.8.0.7-interact.zip"
     },
     "platforms": {
         "ios": "10.0"
