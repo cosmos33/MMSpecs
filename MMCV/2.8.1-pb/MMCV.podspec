@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'https://download.immomo.com/cosmos/MMCV/2.8.1.pb2/MMCV.zip' }
+  s.source           = { http:'https://download.immomo.com/cosmos/MMCV/2.8.1-pb3/MMCV.zip' }
 
   s.ios.deployment_target = '9.0'
 
