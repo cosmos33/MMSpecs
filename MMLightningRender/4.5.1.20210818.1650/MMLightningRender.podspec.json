@@ -1,0 +1,32 @@
+{
+    "name": "MMLightningRender",
+    "version": "4.5.1.20210818.1650",
+    "summary": "engine render",
+    "description": "MMLightningRender framework",
+    "homepage": "https://cosmos.immomo.com/",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "HongjieFu": "HongjieFu"
+    },
+    "source": {
+        "http": "https://download.immomo.com/cosmos/lightningrender/4.5.1.20210818.1650.zip"
+    },
+    "platforms": {
+        "ios": "10.0"
+    },
+    "module_name": "MMLightningRender",
+    "static_framework": true,
+    "public_header_files": "Headers/**/*.h",
+    "source_files": "Headers/**/*.h",
+    "vendored_libraries": [
+        "Libraries/*.a"
+    ],
+    "resources": "XEngineResource.bundle",
+    "libraries": "c++",
+    "dependencies": {
+        "MMXEngine": []
+    }
+}
