@@ -1,6 +1,6 @@
 {
   "name": "MMXEngine",
-  "version": "4.5.1.20210818.1650",
+  "version": "4.5.1.20210819.1151",
   "summary": "A short description of XEScene Renderer.",
   "description": "MMXEngine is a 3D Game Engine For iOS.",
   "homepage": "https://cosmos.immomo.com/",
@@ -11,11 +11,11 @@
     "HongjieFu": "HongjieFu"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   },
   "module_name": "MMXEngine",
   "source": {
-    "http": "https://download.momoapk.com/cosmos/xengine/4.5.1.20210818.1650.zip"
+    "http": "https://download.momoapk.com/cosmos/xengine/4.5.1.20210819.1151.zip"
   },
   "public_header_files": "Headers/**/*.h",
   "source_files": "Headers/**/*.h",
@@ -24,9 +24,7 @@
   ],
   "frameworks": [
     "Foundation",
-    "CoreMedia",
     "CoreMotion",
-    "AudioToolBox",
     "Metal",
     "MetalKit"
   ],
