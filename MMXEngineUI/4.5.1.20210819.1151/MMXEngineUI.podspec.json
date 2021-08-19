@@ -25,12 +25,9 @@
     "frameworks": [
         "Foundation",
         "CoreMedia",
-        "AudioToolBox",
         "Metal",
         "MetalKit",
-        "CoreMotion",
-        "OpenAL",
-        "OpenGLES"
+        "CoreMotion"
     ],
     "libraries": [
         "c++",

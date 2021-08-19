@@ -28,20 +28,13 @@
         "AudioToolBox",
         "Metal",
         "MetalKit",
-        "CoreMotion",
-        "OpenAL",
-        "OpenGLES"
+        "CoreMotion"
     ],
     "libraries": [
         "c++",
         "iconv",
         "z"
     ],
-    "dependencies": {
-        "luajit": [],
-        "libjpeg": [],
-        "libpng": []
-    },
     "xcconfig": {
         "ENABLE_BITCODE": "NO"
     }

@@ -33,6 +33,9 @@
     "iconv",
     "z"
   ],
+  "dependencies": {
+    "MMXEngineBase": "4.5.0"
+  },
   "xcconfig": {
     "ENABLE_BITCODE": "NO"
   },
