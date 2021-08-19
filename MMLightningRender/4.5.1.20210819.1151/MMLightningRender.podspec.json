@@ -27,6 +27,6 @@
     "resources": "XEngineResource.bundle",
     "libraries": "c++",
     "dependencies": {
-        "XESceneKit": []
+        "MMXEngine": []
     }
 }
