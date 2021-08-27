@@ -15,7 +15,7 @@
   },
   "module_name": "MMXEngine",
   "source": {
-    "http": "https://download.momoapk.com/cosmos/xengine/4.5.1.20210826.1833.zip"
+    "http": "https://download.momoapk.com/cosmos/xengine/4.5.1.20210827.1659.zip"
   },
   "public_header_files": "Headers/**/*.h",
   "source_files": "Headers/**/*.h",
@@ -37,7 +37,6 @@
     "MMXEngineBase": "4.5.0"
   },
   "xcconfig": {
-    "GCC_PREPROCESSOR_DEFINITIONS": "XESceneKit=MMXEngine",
     "ENABLE_BITCODE": "NO"
   },
   "resources": "XEngine.bundle"
