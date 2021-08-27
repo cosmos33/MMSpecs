@@ -37,6 +37,7 @@
     "MMXEngineBase": "4.5.0"
   },
   "xcconfig": {
+    "GCC_PREPROCESSOR_DEFINITIONS": "XESceneKit=MMXEngine",
     "ENABLE_BITCODE": "NO"
   },
   "resources": "XEngine.bundle"
