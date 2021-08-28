@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { :git => 'https://github.com/cosmos33/MMMedia.git', :tag => s.version.to_s }
+  s.source           = { http:'https://download.momoapk.com/cosmos/MMMedia/2.8.0/MMMedia-2.8.0.zip'}
 
   s.ios.deployment_target = '9.0'
 
@@ -30,14 +30,14 @@ Pod::Spec.new do |s|
 
   s.subspec 'Base' do |sp|
     sp.name = 'Base'
-    sp.vendored_frameworks = 'Frameworks/Base/*.framework'
+    sp.vendored_frameworks = 'frameworks/Base/*.framework'
     sp.dependency 'KVOController'
   end
 
   s.subspec 'Expand' do |sp|
     sp.name = 'Expand'
-    sp.vendored_frameworks = 'Frameworks/Expand/*.framework'
-    sp.resources = 'Resources/*'
+    sp.vendored_frameworks = 'frameworks/Expand/*.framework'
+    sp.resources = 'rescourse/*'
     sp.dependency 'MMCV'
     sp.dependency 'MMXEngine'
     sp.dependency 'Mantle'

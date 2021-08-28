@@ -18,21 +18,29 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { :git => 'https://github.com/cosmos33/MMVideoSDK.git', :tag => s.version.to_s }
+  s.source           = { http:'https://download.momoapk.com/cosmos/MMVideoSDK/2.8.0/2.8.0.zip'  }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
   s.frameworks = 'AVFoundation', 'CoreVideo', 'CoreMedia', 'CoreAudio', 'AssetsLibrary', 'CoreGraphics', 'Photos'
 
-  s.vendored_frameworks = 'Frameworks/**/*.framework'
+  s.vendored_frameworks = 'framework/**/*.framework'
+  s.resources = 'rescourse/*'
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => '$(inherited) NO', 'OTHER_LDFLAGS' => '$(inherited) -ObjC'}
 
-  s.dependency 'MMMedia', '~> 2.5.0'
-  s.dependency 'MMCV', '~> 1.1.7'
+  s.dependency 'MMMedia'
+  s.dependency 'MMCV'
   s.dependency 'MMXEngine'
   s.dependency 'MMFileService'
   s.dependency 'MDREffectFilters'
   s.dependency 'MMDevice'
   s.dependency 'MDLog'
   s.dependency 'MetalPetal/Static', '1.13.0'
+  s.dependency 'MMXEngineBase'
+  s.dependency 'MMXEngineAudio'
+  s.dependency 'MMLightningRender'
+  s.dependency 'MMXEngineLua'
+  s.dependency 'MMXEnginePhysics'
+  s.dependency 'MMXEngineUI'
 end
+
