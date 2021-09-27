@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMVideoSDK'
-  s.version          = '2.5.0'
+  s.version          = '2.5.1'
   s.summary          = 'MMVideoSDK'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'https://download.momoapk.com/cosmos/MMVideoSDK/2.5.0/2.5.0.2.zip'  }
+  s.source           = { http:'https://download.momoapk.com/cosmos/MMVideoSDK/2.5.1/2.5.1.zip'  }
 
   s.ios.deployment_target = '11.0'
 
@@ -30,17 +30,17 @@ Pod::Spec.new do |s|
 
   s.dependency 'MMMedia'
   s.dependency 'MMCV'
-  s.dependency 'MMXEngine'
+  s.dependency 'XESceneKit'
   s.dependency 'MMFileService'
   s.dependency 'MDREffectFilters'
   s.dependency 'MMDevice'
   s.dependency 'MDLog'
   s.dependency 'MetalPetal/Static', '1.13.0'
   s.dependency 'MMXEngineBase'
-  s.dependency 'MMXEngineAudio'
-  s.dependency 'MMLightningRender'
-  s.dependency 'MMXEngineLua'
-  s.dependency 'MMXEnginePhysics'
-  s.dependency 'MMXEngineUI'
+  s.dependency 'XEngineAudio'
+  s.dependency 'LightningRender'
+  s.dependency 'XEngineLua'
+  s.dependency 'XEnginePhysics'
+  s.dependency 'XEngineUI'
 end
 
