@@ -19,7 +19,7 @@ EOS
   s.ios.deployment_target = "9.0"
   s.static_framework = true
 
-  s.source       = { :http => "https://download.immomo.com/cosmos/openssl-1.1.1c/openssl.zip" }
+  s.source       = { :http => "https://download.immomo.com/cosmos/openssl-1.1.1c-1/openssl.zip" }
 
   s.source_files = "openssl/include/**/*.{h}"
 
