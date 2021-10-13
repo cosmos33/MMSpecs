@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMCV'
-  s.version          = '3.0.2-s'
+  s.version          = '3.0.2-zao'
   s.summary          = 'MMCV'
 
   s.description      = <<-DESC
