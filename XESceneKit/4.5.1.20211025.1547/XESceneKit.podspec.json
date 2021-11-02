@@ -1,6 +1,6 @@
 {
     "name": "XESceneKit",
-    "version": "4.5.1.20211025.1123",
+    "version": "4.5.1.20211025.1547",
     "summary": "A short description of XEngine",
     "description": "XEngine is a 3D Game Engine For iOS.",
     "homepage": "https://git.wemomo.com/next/XESceneKit",
@@ -15,7 +15,7 @@
     },
     "module_name": "XESceneKit",
     "source": {
-        "http": "https://download.immomo.com/cosmos/xengine/4.5.1.20211025.1123.zip"
+        "http": "https://download.immomo.com/cosmos/xengine/4.5.1.20211025.1547.zip"
     },
     "public_header_files": "Headers/**/*.h",
     "source_files": [
@@ -37,7 +37,7 @@
         "z"
     ],
     "dependencies": {
-        "MMXEngineBase": "4.5.1.ssl"
+        "MMXEngineBase": "4.5.1"
     },
     "xcconfig": {
         "ENABLE_BITCODE": "NO"
