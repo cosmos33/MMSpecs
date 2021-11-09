@@ -21,10 +21,10 @@ EOS
 
   s.source       = { :http => "https://say-public.oss-cn-beijing.aliyuncs.com/cosmos/openssl.zip" }
 
-  s.source_files = "openssl-1.0.2q/include/**/*.{h}"
+  s.source_files = "openssl/include/**/*.{h}"
 
-  s.header_mappings_dir = 'openssl-1.0.2q/include'
-  s.vendored_libraries = 'openssl-1.0.2q/lib/*.a'
+  s.header_mappings_dir = 'openssl/include'
+  s.vendored_libraries = 'openssl/lib/*.a'
 
   # s.vendored_frameworks = 'openssl/openssl.framework'
 
