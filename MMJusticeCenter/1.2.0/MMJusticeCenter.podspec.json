@@ -1,0 +1,50 @@
+{
+    "name": "MMJusticeCenter",
+    "version": "1.2.0",
+    "authors": {
+        "Zhuxi": "zhu.xi@immomo.com"
+    },
+    "homepage": "https://git.wemomo.com/next/MMJusticeCenter.git",
+    "summary": "MMJusticeCenter Frameworks",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "source": {
+        "http": "http://pivot-dispatcher.wemomo.com/iospod/91/5A/915A3717-B659-4362-9D01-F8A10BF1482520201217.zip"
+    },
+    "platforms": {
+        "ios": "9.0"
+    },
+    "module_name": "MMJusticeCenter",
+    "pod_target_xcconfig": {
+        "ENABLE_BITCODE": "$(inherited) NO",
+        "OTHER_LDFLAGS": "$(inherited) -ObjC"
+    },
+    "user_target_xcconfig": {
+        "ENABLE_BITCODE": "$(inherited) NO",
+        "OTHER_LDFLAGS": "$(inherited) -ObjC"
+    },
+    "static_framework": true,
+    "prefix_header_file": false,
+    "module_map": "Framework/JusticeCenter/MMJusticeCenter.modulemap",
+    "source_files": "Framework/JusticeCenter/**/*.{h,m,cpp,mm}",
+    "public_header_files": [
+        "Framework/JusticeCenter/MMJusticeCenter.h",
+        "Framework/JusticeCenter/MMJusticeConstant.h",
+        "Framework/JusticeCenter/MMJResultInfo.h"
+    ],
+    "dependencies": {
+        "JusticeKit": [
+            "~>2.6.0"
+        ],
+        "MMNNetwork": [],
+        "ZipArchive": [],
+        "MCCSecret": [],
+        "MMDevice": []
+    },
+    "origin_source": {
+        "git": "https://git.wemomo.com/next/MMJusticeCenter.git",
+        "tag": "1.2.0"
+    }
+}

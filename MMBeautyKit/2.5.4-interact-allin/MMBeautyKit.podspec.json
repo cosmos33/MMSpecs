@@ -1,0 +1,58 @@
+{
+    "name": "MMBeautyKit",
+    "version": "2.5.4-interact-allin",
+    "summary": "MMBeautyKit",
+    "description": "beauty kit",
+    "homepage": "https://cosmos.wemomo.com/beauty/wiki/",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "cosmos": "cosmossaas@gmail.com"
+    },
+    "source": {
+        "http": "https://download.immomo.com/cosmos/MMBeautyKit/MMBeautyKit2.5.4-interact-allin.zip"
+    },
+    "platforms": {
+        "ios": "10.0"
+    },
+    "vendored_frameworks": "MMBeautyKit/Framework/*.framework",
+    "vendored_libraries": "MMBeautyKit/Libraries/*.a",
+    "resources": [
+        "MMBeautyKit/Resources/*.bundle",
+        "MMBeautyKit/Resources/*.json"
+    ],
+    "pod_target_xcconfig": {
+        "ENABLE_BITCODE": "$(inherited) NO",
+        "OTHER_LDFLAGS": "$(inherited) -ObjC",
+        "MTL_LANGUAGE_REVISION": "Metal12",
+        "CLANG_WARN_DOCUMENTATION_COMMENTS": "$(inherited) NO"
+    },
+    "dependencies": {
+        
+    },
+    "frameworks": [
+        "Foundation",
+        "CoreMedia",
+        "CoreMotion",
+        "AudioToolBox",
+        "OpenAL",
+        "OpenGLES",
+        "MetalKit",
+        "MetalPerformanceShaders",
+        "Accelerate",
+        "CoreImage",
+        "AssetsLibrary"
+  ],
+  "weak_frameworks": [
+    "CoreML", "Vision"
+  ],
+  "libraries": [
+        "c++",
+        "stdc++",
+        "iconv",
+        "z",
+        "resolv"
+  ]
+}

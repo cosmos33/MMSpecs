@@ -1,0 +1,68 @@
+{
+    "name": "MMBeautyMedia",
+    "version": "2.5.4",
+    "summary": "MMBeautyMedia",
+    "description": "beauty media",
+    "homepage": "https://cosmos.wemomo.com/beauty/wiki/",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "cosmos": "cosmossaas@gmail.com"
+    },
+    "source": {
+        "http": "https://download.immomo.com/cosmos/MMBeautyKit/2.5.4.zip"
+    },
+    "platforms": {
+        "ios": "10.0"
+    },
+    "pod_target_xcconfig": {
+        "ENABLE_BITCODE": "$(inherited) NO",
+        "OTHER_LDFLAGS": "$(inherited) -ObjC",
+        "MTL_LANGUAGE_REVISION": "Metal12",
+        "CLANG_WARN_DOCUMENTATION_COMMENTS": "$(inherited) NO"
+    },
+    "dependencies": {
+        "Mantle": [],
+        "MetalPetal/Static": []
+    },
+    "subspecs": [
+        {
+            "name": "Beauty",
+            "vendored_frameworks": "libraries/CXBeautyKit.framework",
+            "resources": [
+                "resources/CXMakeup.bundle",
+                "resources/Effects.bundle",
+                "resources/CXBeautyKit.bundle",
+                "resources/triangulation104.json",
+                "resources/triangulation137.json",
+                "resources/triangulation186.json"
+            ],
+            "dependencies": {
+                "MMCV": []
+            }
+        },
+        {
+            "name": "Filter",
+            "vendored_frameworks": [
+                "libraries/MLFilterKit.framework",
+                "libraries/MLFilterKitMetalPetal.framework"
+            ],
+            "resources": "resources/MLFilterKitMetalPetal.bundle"
+        },
+        {
+            "name": "Sticker",
+            "vendored_frameworks": [
+                "libraries/FaceDecorationKit.framework",
+                "libraries/FaceDecorationKitMetalPetal.framework",
+                "libraries/FaceDecorationKitX3D.framework"
+            ],
+            "resources": "resources/FaceDecorationKitMetalPetal.bundle",
+            "dependencies": {
+                "MMXEngine": [],
+                "MMCV": []
+            }
+        }
+    ]
+}
