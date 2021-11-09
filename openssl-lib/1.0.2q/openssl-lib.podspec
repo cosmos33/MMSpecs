@@ -21,10 +21,10 @@ EOS
 
   s.source       = { :http => "https://download.momoapk.com/cosmos/openssl/1.0.2/openssl.zip" }
 
-  s.source_files = "openssl/include/**/*.{h}"
+  s.source_files = "include/**/*.{h}"
 
-  s.header_mappings_dir = 'openssl/include'
-  s.vendored_libraries = 'openssl/lib/*.a'
+  s.header_mappings_dir = 'include'
+  s.vendored_libraries = 'lib/*.a'
 
 end
 
