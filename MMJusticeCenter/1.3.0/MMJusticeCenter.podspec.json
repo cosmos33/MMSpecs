@@ -11,7 +11,7 @@
         "file": "LICENSE"
     },
     "source": {
-        "http": "https://pivot-dispatcher.wemomo.com/iospod/DB/72/DB7223B8-9053-4643-8130-4A0BBCD7F72B20211111.zip"
+        "http": "https://pivot-dispatcher.wemomo.com/iospod/93/A3/93A36E89-712B-4E8B-B7E2-C85728A58D9020211111.zip"
     },
     "platforms": {
         "ios": "9.0"
@@ -37,9 +37,6 @@
     "dependencies": {
         "JusticeKit": [
             "~>3.1.5"
-        ],
-        "MMCV": [
-            "3.0.4-s"
         ],
         "MMNNetwork": [],
         "ZipArchive": [],
