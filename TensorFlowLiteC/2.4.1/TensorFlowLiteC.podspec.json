@@ -1,0 +1,26 @@
+{
+    "name": "TensorFlowLiteC",
+    "version": "2.4.1",
+    "summary": "TensorFlow Lite Architecture",
+    "description": "",
+    "homepage": "https://git.wemomo.com/justice/tensorflow",
+    "license": {
+        "type": "Apache"
+    },
+    "authors": {
+        "mg.beryl12": "luo.jiaxin@immomo.com"
+    },
+    "source": {
+        "http": "https://cosmos.momocdn.com/cosmosdocs/52/43/5243E264-B55D-9790-58C9-650278A3439C20210916.zip"
+    },
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": false,
+    "static_framework": true,
+    "vendored_frameworks": "Framework/TensorFlowLiteC.framework",
+    "origin_source": {
+        "git": "https://github.com/tensorflow/tensorflow.git",
+        "tag": "TensorFlowLiteC/2.4.0"
+    }
+}
