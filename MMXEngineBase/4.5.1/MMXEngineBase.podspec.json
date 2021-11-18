@@ -15,10 +15,13 @@
     },
     "module_name": "MMXEngineBase",
     "source": {
-        "http": "https://download.momoapk.com/cosmos/xengine_base/Libraries451.zip"
+        "http": "https://download.momoapk.com/cosmos/xengine_base/MMXEngineBase451.zip"
     },
     "public_header_files": "Headers/**/*.h",
-    "source_files": "Headers/**/*.h",
+    "source_files": [
+        "Headers/**/*.h",
+        "Sources/*.m"
+    ],
     "vendored_libraries": [
         "Libraries/*.a"
     ],
