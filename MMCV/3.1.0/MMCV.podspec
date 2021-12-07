@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMCV'
-  s.version          = '3.1.0.1'
+  s.version          = '3.1.0'
   s.summary          = 'MMCV'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'https://download.momoapk.com/cosmos/MMCV/3.1.0/3.1.0.1-beauty.zip' }
+  s.source           = { http:'https://download.momoapk.com/cosmos/MMCV/3.1.0/3.1.0.2.zip' }
 
   s.ios.deployment_target = '9.0'
 
