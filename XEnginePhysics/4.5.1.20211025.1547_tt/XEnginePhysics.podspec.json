@@ -1,9 +1,9 @@
 {
-    "name": "MMXEngineBase",
-    "version": "4.5.1",
+    "name": "XEnginePhysics",
+    "version": "4.5.1.20211025.1547",
     "summary": "A short description of XEngine",
     "description": "XEngine is a 3D Game Engine For iOS.",
-    "homepage": "https://git.wemomo.com/next/XEngineAudio",
+    "homepage": "https://git.wemomo.com/next/XEnginePhysics",
     "license": {
         "type": "None"
     },
@@ -13,13 +13,14 @@
     "platforms": {
         "ios": "11.0"
     },
-    "module_name": "MMXEngineBase",
+    "module_name": "XEnginePhysics",
     "source": {
-        "http": "https://download.momoapk.com/cosmos/xengine_base/MMXEngineBase451.zip"
+        "http": "https://download.immomo.com/cosmos/xengine_physics/4.5.1.20211025.1547.zip"
     },
     "public_header_files": "Headers/**/*.h",
     "source_files": [
-        "Headers/**/*.h"
+        "Headers/**/*.h",
+        "Sources/*.m"
     ],
     "vendored_libraries": [
         "Libraries/*.a"
@@ -29,7 +30,11 @@
         "iconv",
         "z"
     ],
+    "dependencies": {
+        "XESceneKit": []
+    },
     "xcconfig": {
         "ENABLE_BITCODE": "NO"
-    }
+    },
+    "static_framework":true
 }

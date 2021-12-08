@@ -1,9 +1,9 @@
 {
-    "name": "XESceneKit",
+    "name": "XEngineAudio",
     "version": "4.5.1.20211025.1547",
     "summary": "A short description of XEngine",
     "description": "XEngine is a 3D Game Engine For iOS.",
-    "homepage": "https://git.wemomo.com/next/XESceneKit",
+    "homepage": "https://git.wemomo.com/next/XEngineAudio",
     "license": {
         "type": "None"
     },
@@ -13,22 +13,23 @@
     "platforms": {
         "ios": "11.0"
     },
-    "module_name": "XESceneKit",
+    "module_name": "XEngineAudio",
     "source": {
-        "http": "https://download.immomo.com/cosmos/xengine/4.5.1.20211025.1547.zip"
+        "http": "https://download.immomo.com/cosmos/xengine_audio/4.5.1.20211025.1547.zip"
     },
     "public_header_files": "Headers/**/*.h",
     "source_files": [
-        "Headers/**/*.h"
+        "Headers/**/*.h",
+        "Sources/*.m"
     ],
     "vendored_libraries": [
         "Libraries/*.a"
     ],
     "frameworks": [
         "Foundation",
-        "Metal",
-        "MetalKit",
-        "CoreMotion"
+        "CoreMedia",
+        "AudioToolBox",
+        "OpenAL"
     ],
     "libraries": [
         "c++",
@@ -36,10 +37,10 @@
         "z"
     ],
     "dependencies": {
-        "MMXEngineBase": "4.5.1-tantan"
+        "XESceneKit": []
     },
     "xcconfig": {
         "ENABLE_BITCODE": "NO"
     },
-    "resources": "XEngine.bundle"
+    "static_framework":true
 }
