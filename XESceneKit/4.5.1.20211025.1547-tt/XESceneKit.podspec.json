@@ -37,7 +37,7 @@
         "z"
     ],
     "dependencies": {
-        "MMXEngineBase": "4.5.1_tt"
+        "MMXEngineBase": "4.5.1-tt"
     },
     "xcconfig": {
         "ENABLE_BITCODE": "NO"
