@@ -32,5 +32,6 @@
     ],
     "xcconfig": {
         "ENABLE_BITCODE": "NO"
-    }
+    },
+    "static_framework": true
 }
