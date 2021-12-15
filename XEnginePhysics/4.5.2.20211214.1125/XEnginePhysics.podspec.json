@@ -11,7 +11,7 @@
         "HongjieFu": "fu.hongjie@immomo.com"
     },
     "platforms": {
-        "ios": "11.0"
+        "ios": "10.0"
     },
     "module_name": "XEnginePhysics",
     "source": {
