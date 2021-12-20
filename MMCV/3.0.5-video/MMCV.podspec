@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'https://download.momoapk.com/cosmos/MMCV/video/3.0.5/3.0.5-video.zip' }
+  s.source           = { http:'https://download.momoapk.com/cosmos/MMCV/video/3.0.5.1/3.0.5.1-video.zip' }
 
   s.ios.deployment_target = '9.0'
 
