@@ -33,6 +33,7 @@
     "dependencies": {
         "XESceneKit": []
     },
+    "static_framework": true,
     "xcconfig": {
         "ENABLE_BITCODE": "NO"
     }
