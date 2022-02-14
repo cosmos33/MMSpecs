@@ -39,6 +39,7 @@
     "dependencies": {
         "MMXEngineBase": "4.5.2"
     },
+    "static_framework": true,
     "xcconfig": {
         "ENABLE_BITCODE": "NO"
     },
