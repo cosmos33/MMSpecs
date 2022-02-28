@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   s.public_header_files = "MMBeautyUI/**/*.h"
   s.resource = ["MMBeautyUI/*.bundle","MMBeautyUI/*.geojson"]
  
-  s.dependency 'MMBeautyKit'
+  #s.dependency 'MMBeautyKit'
   s.frameworks = 'UIKit'
   s.static_framework = true
 end
