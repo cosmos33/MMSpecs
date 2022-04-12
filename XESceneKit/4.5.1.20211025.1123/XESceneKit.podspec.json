@@ -42,5 +42,6 @@
     "xcconfig": {
         "ENABLE_BITCODE": "NO"
     },
-    "resources": "XEngine.bundle"
+    "resources": "XEngine.bundle",
+    "static_framework": true
 }
