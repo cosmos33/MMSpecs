@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'https://download.momoapk.com/cosmos/MMVideoSDK/2.6.0/2.6.0.2.zip'  }
+  s.source           = { http:'https://download.momoapk.com/cosmos/MMVideoSDK/2.6.0/2.6.0.3.zip'  }
 
   s.ios.deployment_target = '11.0'
   s.static_framework = true
