@@ -1,0 +1,124 @@
+{
+    "name": "MLNDevTool",
+    "version": "0.2.1",
+    "summary": "Debug Tool of MLN.",
+    "description": "Debug Tool of MLN.",
+    "homepage": "https://git.wemomo.com/client_support/MLNDevTool.git",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": "MoMo",
+    "source": {
+        "http": "https://pivot-dispatcher.wemomo.com/iospod/3B/07/3B07592E-B34A-4B8E-A262-07F4AD060D1F20220415.zip"
+    },
+    "module_map": "MLNDevTool/Classes/module.modulemap",
+    "platforms": {
+        "ios": "11.0"
+    },
+    "libraries": [
+        "z",
+        "c++"
+    ],
+    "subspecs": [
+        {
+            "name": "Header",
+            "source_files": "MLNDevTool/Classes/MLNDevTool.h"
+        },
+        {
+            "name": "MLNProtobuf",
+            "source_files": "MLNDevTool/Classes/MLNProtobuf/**/*.{h,m}",
+            "private_header_files": "MLNDevTool/Classes/MLNProtobuf/**/*.h",
+            "pod_target_xcconfig": {
+                "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1"
+            },
+            "dependencies": {
+                "MLNDevTool/Header": [],
+                "Protobuf": []
+            }
+        },
+        {
+            "name": "Conn",
+            "frameworks": [
+                "Foundation",
+                "UIKit",
+                "CFNetwork"
+            ],
+            "source_files": "MLNDevTool/Classes/Conn/**/*.{h,m}",
+            "private_header_files": "MLNDevTool/Classes/Conn/**/*.h",
+            "dependencies": {
+                "MLNDevTool/Header": [],
+                "MLNDevTool/MLNProtobuf": []
+            }
+        },
+        {
+            "name": "DevTool",
+            "source_files": "MLNDevTool/Classes/DevTool/**/*.{h,m,c}",
+            "private_header_files": "MLNDevTool/Classes/DevTool/Util/DebugLib/**/*.h",
+            "frameworks": [
+                "Foundation",
+                "UIKit",
+                "AVFoundation"
+            ],
+            "resource_bundles": {
+                "MLNDevTool_Util": "MLNDevTool/Classes/DevTool/Util/**/Assets/*.{png,lua,xib,storyboard}",
+                "MLNDevTool_UI": "MLNDevTool/Classes/DevTool/UI/**/Assets/*.{png,xib}"
+            },
+            "dependencies": {
+                "MLNDevTool/Header": [],
+                "MLNDevTool/Conn": [],
+                "MLN": []
+            }
+        },
+        {
+            "name": "Performance",
+            "frameworks": [
+                "Foundation",
+                "UIKit"
+            ],
+            "source_files": "MLNDevTool/Classes/Performance/**/*.{h,m,c}",
+            "public_header_files": "MLNDevTool/Classes/Performance/**/*.h",
+            "dependencies": {
+                "MLNDevTool/Header": []
+            }
+        },
+        {
+            "name": "Offline",
+            "source_files": "MLNDevTool/Classes/Offline/**/*.{h,m,c}",
+            "public_header_files": "MLNDevTool/Classes/Offline/MLNOfflineViewController.h",
+            "resource_bundles": {
+                "MLNDevTool_Offline": "MLNDevTool/Classes/Offline/**/Assets/*.{png,lua,xib}"
+            },
+            "dependencies": {
+                "MLNDevTool/Header": [],
+                "MLNDevTool/DevTool": [],
+                "MLN": []
+            }
+        },
+        {
+            "name": "HotReload",
+            "frameworks": [
+                "Foundation",
+                "UIKit"
+            ],
+            "source_files": "MLNDevTool/Classes/HotReload/**/*.{h,m,c}",
+            "public_header_files": [
+                "MLNDevTool/Classes/HotReload/MLNHotReload.h",
+                "MLNDevTool/Classes/HotReload/UI/**/*.h"
+            ],
+            "resource_bundles": {
+                "MLNDevTool_HotReload": "MLNDevTool/Classes/HotReload/**/Assets/*.{png,xib}"
+            },
+            "dependencies": {
+                "MLNDevTool/Header": [],
+                "MLNDevTool/DevTool": [],
+                "MLNDevTool/Conn": [],
+                "MLN": []
+            }
+        }
+    ],
+    "origin_source": {
+        "git": "https://git.wemomo.com/client_support/MLNDevTool.git",
+        "tag": "hello_group_0.2.1"
+    }
+}
