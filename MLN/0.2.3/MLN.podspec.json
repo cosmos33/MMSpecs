@@ -1,0 +1,62 @@
+{
+    "name": "MLN",
+    "version": "0.2.3",
+    "summary": "A lib of Momo Lua Native.",
+    "description": "A lib of Momo Lua Native Core.",
+    "homepage": "https://mln.immomo.com",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": "MoMo",
+    "source": {
+        "http": "https://pivot-dispatcher.wemomo.com/iospod/58/26/582648CC-F014-40CD-9C14-098B8A7ADEF520220420.zip"
+    },
+    "header_dir": ".",
+    "source_files": "MLN-iOS/MLN/Classes/MLN.h",
+    "module_map": "MLN-iOS/MLN/Classes/module.modulemap",
+    "module_name": "MLN",
+    "platforms": {
+        "ios": "8.0"
+    },
+    "libraries": "z",
+    "requires_arc": true,
+    "static_framework": true,
+    "subspecs": [
+        {
+            "name": "LuaLib",
+            "source_files": "MLN-iOS/MLN/Classes/LuaLib/**/*.{h,m,c}",
+            "public_header_files": "MLN-iOS/MLN/Classes/LuaLib/**/*.h"
+        },
+        {
+            "name": "Core",
+            "frameworks": [
+                "Foundation",
+                "UIKit"
+            ],
+            "source_files": "MLN-iOS/MLN/Classes/Core/**/*.{h,m,c}",
+            "public_header_files": "MLN-iOS/MLN/Classes/Core/**/*.h",
+            "dependencies": {
+                "MLN/LuaLib": []
+            }
+        },
+        {
+            "name": "Kit",
+            "frameworks": [
+                "Foundation",
+                "UIKit",
+                "CoreGraphics",
+                "AVFoundation"
+            ],
+            "source_files": "MLN-iOS/MLN/Classes/Kit/**/*.{h,m,c}",
+            "public_header_files": "MLN-iOS/MLN/Classes/Kit/**/*.h",
+            "dependencies": {
+                "MLN/Core": []
+            }
+        }
+    ],
+    "origin_source": {
+        "git": "https://git.wemomo.com/client_support/mmlua4ios.git",
+        "tag": "hello_group_0.2.3"
+    }
+}
