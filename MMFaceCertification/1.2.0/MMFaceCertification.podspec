@@ -19,9 +19,9 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = 'Frameworks/**/*.framework'
     s.resource = 'Frameworks/MMFaceCertification.framework/*.bundle'
     
-    s.dependency 'MMCV', 
+    s.dependency 'MMCV'
     s.dependency 'Protobuf'
-    s.dependency 'MMNNetwork', '>= 1.0.5'
+    s.dependency 'MMNNetwork'
     s.dependency 'MMFileService'
     s.dependency 'PhotonHTTPDNS'
     s.dependency 'GPUImage'
