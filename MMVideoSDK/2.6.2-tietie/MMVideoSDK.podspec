@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMVideoSDK'
-  s.version          = '2.6.2.1-teitie'
+  s.version          = '2.6.2-teitie'
   s.summary          = 'MMVideoSDK'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'https://download.momoapk.com/cosmos/MMVideoSDK/2.6.2/tieite/2.6.2.3-tietie.zip'  }
+  s.source           = { http:'https://download.momoapk.com/cosmos/MMVideoSDK/2.6.2/tieite/2.6.2.5-tietie.zip'  }
 
   s.ios.deployment_target = '11.0'
   s.static_framework = true
