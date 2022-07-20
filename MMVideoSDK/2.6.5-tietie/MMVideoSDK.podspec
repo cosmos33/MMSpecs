@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMVideoSDK'
-  s.version          = '2.6.4.1-tietie-fix'
+  s.version          = '2.6.5-tietie'
   s.summary          = 'MMVideoSDK'
 
   s.description      = <<-DESC
