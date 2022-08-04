@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'https://download.momoapk.com/cosmos/MMCV/3.3.2/tietie/3.3.2-tietie-0803.zip' }
+  s.source           = { http:'https://download.momoapk.com/cosmos/MMCV/3.3.2/tietie/3.3.2-tietie-0804.zip' }
 
   s.ios.deployment_target = '9.0'
 
