@@ -1,9 +1,9 @@
 {
-    "name": "XEngineUI",
-    "version": "5.0.0.20220722.1138",
+    "name": "XEnginePhysics",
+    "version": "5.0.0.20220823.1438",
     "summary": "A short description of XEngine",
     "description": "XEngine is a 3D Game Engine For iOS.",
-    "homepage": "https://git.wemomo.com/next/XEngineUI",
+    "homepage": "https://git.wemomo.com/next/XEnginePhysics",
     "license": {
         "type": "None"
     },
@@ -13,10 +13,10 @@
     "platforms": {
         "ios": "10.0"
     },
-    "module_name": "XEngineUI",
+    "module_name": "XEnginePhysics",
     "static_framework": true,
     "source": {
-        "http": "https://download.immomo.com/cosmos/xengine_ui/5.0.0.20220722.1138.zip"
+        "http": "https://download.immomo.com/cosmos/xengine_physics/5.0.0.20220823.1438.zip"
     },
     "public_header_files": "Headers/**/*.h",
     "source_files": [
