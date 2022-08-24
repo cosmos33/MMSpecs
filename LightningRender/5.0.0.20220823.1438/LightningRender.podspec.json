@@ -1,6 +1,6 @@
 {
     "name": "LightningRender",
-    "version": "5.0.0.20220815.1816",
+    "version": "5.0.0.20220823.1438",
     "summary": "engine render",
     "description": "this framework use to render",
     "homepage": "https://www.momo.com/",
@@ -12,7 +12,7 @@
         "bi.s_fish": "sun.fei@immomo.com"
     },
     "source": {
-        "http": "https://download.immomo.com/cosmos/lightningrender/5.0.0.20220815.1816.zip"
+        "http": "https://download.immomo.com/cosmos/lightningrender/5.0.0.20220823.1438.zip"
     },
     "platforms": {
         "ios": "10.0"
