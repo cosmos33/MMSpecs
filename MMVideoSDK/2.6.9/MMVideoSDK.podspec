@@ -42,5 +42,6 @@ Pod::Spec.new do |s|
   s.dependency 'XEngineLua'
   s.dependency 'XEnginePhysics'
   s.dependency 'XEngineUI'
+  s.dependency 'XEngineAR'
 end
 
