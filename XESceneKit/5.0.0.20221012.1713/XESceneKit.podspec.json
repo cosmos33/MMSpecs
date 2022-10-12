@@ -38,9 +38,7 @@
         "z"
     ],
     "dependencies": {
-        "luajit": [],
-        "libjpeg": [],
-        "libpng": []
+        "MMXEngineBase": "4.5.2"
     },
     "xcconfig": {
         "ENABLE_BITCODE": "NO"
