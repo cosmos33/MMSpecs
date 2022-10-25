@@ -32,7 +32,6 @@ Pod::Spec.new do |s|
   s.dependency 'MMCV'
   s.dependency 'XESceneKit'
   s.dependency 'MMFileService'
-  s.dependency 'MDREffectFilters'
   s.dependency 'MMDevice'
   s.dependency 'MDLog'
   s.dependency 'MetalPetal/Static'
