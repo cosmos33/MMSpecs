@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMMedia'
-  s.version          = '2.6.4-kaka'
+  s.version          = '2.6.5-kaka'
   s.summary          = 'MMMedia'
 
   s.description      = <<-DESC
@@ -41,7 +41,6 @@ Pod::Spec.new do |s|
     sp.dependency 'MMCV'
     sp.dependency 'XESceneKit'
     sp.dependency 'Mantle'
-    sp.dependency 'MDREffectFilters'
     sp.dependency 'LightningRender'
   end
 
