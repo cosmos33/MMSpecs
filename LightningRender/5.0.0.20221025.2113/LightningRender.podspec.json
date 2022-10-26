@@ -1,0 +1,35 @@
+{
+    "name": "LightningRender",
+    "version": "5.0.0.20221025.2113",
+    "summary": "engine render",
+    "description": "this framework use to render",
+    "homepage": "https://www.momo.com/",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "bi.s_fish": "sun.fei@immomo.com"
+    },
+    "source": {
+        "http": "https://download.immomo.com/cosmos/lightningrender/5.0.0.20221025.2113.zip"
+    },
+    "platforms": {
+        "ios": "10.0"
+    },
+    "module_name": "LightningRender",
+    "static_framework": true,
+    "public_header_files": "Headers/**/*.h",
+    "source_files": [
+        "Headers/**/*.h",
+        "Sources/*.m"
+    ],
+    "vendored_libraries": [
+        "Libraries/*.a"
+    ],
+    "resources": "XEngineResource.bundle",
+    "libraries": "c++",
+    "dependencies": {
+        "XESceneKit": []
+    }
+}
