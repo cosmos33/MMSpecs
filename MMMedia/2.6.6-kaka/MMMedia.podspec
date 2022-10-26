@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMMedia'
-  s.version          = '2.6.5-kaka'
+  s.version          = '2.6.6-kaka'
   s.summary          = 'MMMedia'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'https://download.momoapk.com/cosmos/MMMedia/2.6.4/tietie/2.6.4-debug-02.zip'}
+  s.source           = { http:'https://download.momoapk.com/cosmos/MMMedia/2.6.5/kaka/2.6.6-kaka.zip'}
 
   s.ios.deployment_target = '9.0'
 
