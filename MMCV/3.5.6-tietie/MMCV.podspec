@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMCV'
-  s.version          = '3.5.5-tietie'
+  s.version          = '3.5.6-tietie'
   s.summary          = 'MMCV'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'https://download.momoapk.com/cosmos/MMCV/3.5.0/tietie/3.5.0.8.zip' }
+  s.source           = { http:'https://download.momoapk.com/cosmos/MMCV/tietie/3.5.6/3.5.6.1-tietie.zip' }
 
   s.ios.deployment_target = '9.0'
 
