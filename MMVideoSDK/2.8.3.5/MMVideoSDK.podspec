@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMVideoSDK'
-  s.version          = '2.8.3.3'
+  s.version          = '2.8.3.5'
   s.summary          = 'MMVideoSDK'
 
   s.description      = <<-DESC
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'https://download.momoapk.com/cosmos/MMVideoSDK/2.8.3/tietie/2.8.3.3.zip'  }
+  s.source           = { http:'https://download.momoapk.com/cosmos/MMVideoSDK/2.8.3/tietie/2.8.3.5.zip'  }
+  
 
   s.ios.deployment_target = '11.0'
   s.static_framework = true
