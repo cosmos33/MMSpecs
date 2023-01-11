@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMCV'
-  s.version          = '4.0.10-avatar'
+  s.version          = '4.0.11-avatar'
   s.summary          = 'MMCV'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'https://download.momoapk.com/cosmos/MMCV/avator/1.0.7/4.0.10.zip' }
+  s.source           = { http:'https://download.momoapk.com/cosmos/MMCV/avator/1.0.7/4.0.11-avatar.zip' }
 
   s.ios.deployment_target = '9.0'
 
@@ -28,7 +28,10 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'Frameworks/**/*.framework'
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => '$(inherited) NO', 'OTHER_LDFLAGS' => '$(inherited) -ObjC', 'MTL_LANGUAGE_REVISION' => 'Metal12', 'CLANG_WARN_DOCUMENTATION_COMMENTS' => '$(inherited) NO'}
 
-
+  s.dependency 'ZipArchive'
+  s.dependency 'MCCSecret'
+  s.dependency 'PhotonHTTPDNS'
+  s.dependency 'MMFileService'
   s.resources = 'Resources/*'
   
 end
