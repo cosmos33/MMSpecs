@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMCV'
-  s.version          = '4.1.1-tantan'
+  s.version          = '4.1.2-tantan'
   s.summary          = 'MMCV'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'https://download.momoapk.com/cosmos/MMCV/tantan/1.0.3/4.1.1-tantan.zip' }
+  s.source           = { http:'https://download.momoapk.com/cosmos/MMCV/tantan/1.0.4/4.1.1.1-tantan.zip' }
 
   s.ios.deployment_target = '9.0'
 
