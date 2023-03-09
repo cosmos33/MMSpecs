@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMCV'
-  s.version          = '4.0.12-avatar'
+  s.version          = '4.0.14-avatar'
   s.summary          = 'MMCV'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'https://download.momoapk.com/cosmos/MMCV/avator/1.1/4.0.12-avatar.zip' }
+  s.source           = { http:'https://download.momoapk.com/cosmos/MMCV/avator/1.1/4.0.14.zip' }
 
   s.ios.deployment_target = '9.0'
 
