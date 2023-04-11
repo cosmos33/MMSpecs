@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMVideoSDK'
-  s.version          = '3.0.6-avatar'
+  s.version          = '3.0.8-avatar'
   s.summary          = 'MMVideoSDK'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'https://download.momoapk.com/cosmos/MMVideoSDK/avatar/1.1/3.0.6-avatar.zip'  }
+  s.source           = { http:'https://download.momoapk.com/cosmos/MMVideoSDK/avatar/1.3/3.0.8-avatar.zip'  }
   
 
   s.ios.deployment_target = '11.0'
