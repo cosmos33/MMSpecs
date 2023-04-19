@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'hhttps://download.momoapk.com/cosmos/MMCV/avator/1.1/4.1.2-avatar-270.zip' }
+  s.source           = { http:'https://download.momoapk.com/cosmos/MMCV/avator/1.1/4.1.2-avatar-270.zip' }
 
   s.ios.deployment_target = '9.0'
 
