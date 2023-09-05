@@ -1,0 +1,30 @@
+{
+    "name": "zxing_wechat",
+    "version": "4.5.5",
+    "summary": "opencv_contrib zxing_wechat module",
+    "homepage": "https://github.com/opencv/opencv_contrib/blob/4.x/modules/wechat_qrcode/src/zxing",
+    "license": {
+        "type": "Apache"
+    },
+    "authors": {
+        "mg.beryl12": "luo.jiaxin@immomo.com"
+    },
+    "source": {
+        "http": "https://pivot-dispatcher.wemomo.com/iospod/55/B7/55B73B08-7B70-45A2-B13F-9AEF1922BFFA20230905.zip"
+    },
+    "platforms": {
+        "ios": "9.0"
+    },
+    "prefix_header_file": false,
+    "static_framework": true,
+    "pod_target_xcconfig": {
+        "VALID_ARCHS": "x86_64 armv7 arm64"
+    },
+    "vendored_frameworks": "Framework/zxing_wechat.framework",
+    "frameworks": "Accelerate",
+    "libraries": "iconv",
+    "origin_source": {
+        "git": "https://git.wemomo.com/CI-JusticeRelease/zxing_wechat.git",
+        "tag": "4.5.5"
+    }
+}
