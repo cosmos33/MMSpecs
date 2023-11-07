@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'MMDevice'
-s.version          = '1.0.3'
+s.version          = '1.0.4'
 s.summary          = 'device info'
 
 s.description      = <<-DESC
