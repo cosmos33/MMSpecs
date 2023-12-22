@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMCV'
-  s.version          = '4.1.3-tantan'
+  s.version          = '4.1.4-tantan'
   s.summary          = 'MMCV'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'https://download.immomo.com/cosmos/MMCV/4.1.3-202312051530.zip' }
+  s.source           = { http:'https://download.immomo.com/cosmos/MMCV/4.1.3.20231221.2030.zip' }
 
   s.ios.deployment_target = '9.0'
 
