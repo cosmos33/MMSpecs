@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MMVideoSDK'
-  s.version          = '3.0.3.202401181917'
+  s.version          = '3.0.3.202401191436'
   s.summary          = 'MMVideoSDK'
 
   s.description      = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.baidu.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'bi.s_fish' => 'sunfeifish@gmail.com' }
-  s.source           = { http:'https://s.momocdn.com/s1/u/hfehcdacg/cosmoss33/MomoVideoSDK/3.0.3/3.0.3.202401181917.zip'  }
+  s.source           = { http:'https://s.momocdn.com/s1/u/hfehcdacg/cosmoss33/MomoVideoSDK/3.0.3/3.0.3.202401191436.zip'  }
   
 
   s.ios.deployment_target = '11.0'
