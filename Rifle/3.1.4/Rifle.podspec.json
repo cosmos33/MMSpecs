@@ -1,0 +1,24 @@
+{
+  "authors": "MOMO",
+  "homepage": "https://cosmos.immomo.com/",
+  "license": {
+    "text": "Copyright (C) 2019 MOMO, Inc. All rights reserved.",
+    "type": "Commercial"
+  },
+  "name": "Rifle",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "requires_arc": true,
+  "source": {
+      "http": "https://cosmos.momocdn.com/cosmospackage/2D/E8/2DE8FAC3-6098-37D0-6CEF-42720A9F022F20241031.zip"
+  },
+  "summary": "Rifle by MOMO, Inc.",
+  "version": "3.1.4",
+  "ios": {
+    "vendored_frameworks": "Rifle.framework",
+    "resources": "Rifle.bundle",
+    "frameworks": ["SystemConfiguration", "Security", "MobileCoreServices"],
+    "libraries" : ["z", "c++"]
+  }
+}
