@@ -1,0 +1,60 @@
+{
+    "name": "MMVideoSDK",
+    "version": "3.0.5",
+    "summary": "MMVideoSDK",
+    "description": "MMVideoSDK short videos",
+    "homepage": "https://www.baidu.com/",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "bi.s_fish": "sunfeifish@gmail.com"
+    },
+    "source": {
+        "http": "https://pivot-dispatcher.wemomo.com/iospod/00/38/0038C271-4370-4BFF-B0FE-C3E9891716DB20241211.zip"
+    },
+    "platforms": {
+        "ios": "11.0"
+    },
+    "static_framework": true,
+    "frameworks": [
+        "AVFoundation",
+        "CoreVideo",
+        "CoreMedia",
+        "CoreAudio",
+        "AssetsLibrary",
+        "CoreGraphics",
+        "Photos"
+    ],
+    "vendored_frameworks": "**/*.framework",
+    "resources": "rescourse/*",
+    "pod_target_xcconfig": {
+        "ENABLE_BITCODE": "$(inherited) NO",
+        "OTHER_LDFLAGS": "$(inherited) -ObjC"
+    },
+    "dependencies": {
+        "MMMedia": [],
+        "MMCV": [],
+        "XESceneKit": [],
+        "MMFileService": [],
+        "MDREffectFilters": [],
+        "MMDevice": [],
+        "MDLog": [],
+        "MetalPetal/Static": [
+            "1.13.0"
+        ],
+        "MMXEngineBase": [],
+        "XEngineAudio": [],
+        "LightningRender": [],
+        "XEngineLua": [],
+        "XEnginePhysics": [],
+        "XEngineUI": [],
+        "XEngineAR": [],
+        "MEStatistics": []
+    },
+    "origin_source": {
+        "git": "https://git.wemomo.com/magic/merecorderios",
+        "tag": "3.0.5"
+    }
+}
