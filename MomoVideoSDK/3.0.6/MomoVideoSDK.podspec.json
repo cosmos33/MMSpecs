@@ -1,0 +1,116 @@
+{
+    "name": "MomoVideoSDK",
+    "version": "3.0.6",
+    "summary": "short videos record and edit",
+    "description": "this framework use to record,edit short videos",
+    "homepage": "https://www.momo.com/",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "bi.s_fish": "sun.fei@immomo.com"
+    },
+    "source": {
+        "http": "https://pivot-dispatcher.wemomo.com/iospod/63/EB/63EB6602-5D7A-41A7-8817-33C59BDA987420250109.zip"
+    },
+    "platforms": {
+        "ios": "11.0"
+    },
+    "module_name": "RecordSDK",
+    "static_framework": true,
+    "resources": "rescourse/*",
+    "vendored_frameworks": "**/*.framework",
+    "frameworks": [
+        "AVFoundation",
+        "CoreVideo",
+        "CoreMedia",
+        "CoreAudio"
+    ],
+    "weak_frameworks": [
+        "CoreML",
+        "Vision"
+    ],
+    "subspecs": [
+        {
+            "name": "Base",
+            "source_files": "RecordSDK/Base/**/*",
+            "public_header_files": "RecordSDK/Base/**/*.h",
+            "dependencies": {
+                "MetalPetal": [],
+                "MLMediaFoundation": [],
+                "MLFilterKit": [],
+                "MLFilterKitMetalPetal": [],
+                "MLMediaEditingModel": [],
+                "NSTimer+WeakTarget": [],
+                "MDLog": [],
+                "MEStatistics": [],
+                "MMDevice": []
+            }
+        },
+        {
+            "name": "Photo",
+            "source_files": "RecordSDK/Business/Photo/**/*",
+            "public_header_files": "RecordSDK/Business/Photo/**/*.h",
+            "dependencies": {
+                "MomoVideoSDK/Base": [],
+                "MomoVideoSDK/Utils": []
+            }
+        },
+        {
+            "name": "Video",
+            "source_files": "RecordSDK/Business/Video/**/*",
+            "public_header_files": "RecordSDK/Business/Video/**/*.h",
+            "dependencies": {
+                "MomoVideoSDK/Base": [],
+                "MomoVideoSDK/Utils": [],
+                "MomoVideoSDK/Shaders": []
+            }
+        },
+        {
+            "name": "Camera3D",
+            "source_files": "RecordSDK/Business/Camera3D/**/*",
+            "public_header_files": "RecordSDK/Business/Camera3D/**/*.h",
+            "dependencies": {
+                "MomoVideoSDK/Base": [],
+                "MomoVideoSDK/Utils": [],
+                "MomoVideoSDK/Shaders": []
+            }
+        },
+        {
+            "name": "Logger",
+            "source_files": "RecordSDK/Business/Logger/**/*",
+            "public_header_files": "RecordSDK/Business/Logger/**/*.h",
+            "dependencies": {
+                "MMFileService": [],
+                "MomoVideoSDK/Base": []
+            }
+        },
+        {
+            "name": "Utils",
+            "source_files": "RecordSDK/Utils/**/*",
+            "public_header_files": "RecordSDK/Utils/**/*.h"
+        },
+        {
+            "name": "Shaders",
+            "source_files": "RecordSDK/Business/Shaders/**/*",
+            "public_header_files": "RecordSDK/Business/Shaders/**/*.h",
+            "xcconfig": {
+                "MTL_LANGUAGE_REVISION": "Metal12"
+            },
+            "pod_target_xcconfig": {
+                "MTL_HEADER_SEARCH_PATHS": "$(inherited) \"${PODS_CONFIGURATION_BUILD_DIR}/MetalPetal/MetalPetal.framework/Headers\" \"$(PODS_ROOT)/Headers/Public/MetalPetal\"",
+                "METAL_LIBRARY_OUTPUT_DIR": "${TARGET_BUILD_DIR}/MMVideoSDK.bundle/",
+                "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+            },
+            "dependencies": {
+                "MetalPetal": []
+            },
+            "prefix_header_contents": "#define MMVIDEOSDK_MODULE_BUNDLE ([NSBundle bundleWithURL:[NSBundle.mainBundle URLForResource:@\"MMVideoSDK\" withExtension:@\"bundle\"]])"
+        }
+    ],
+    "origin_source": {
+        "git": "https://git.wemomo.com/magic/merecorderios",
+        "tag": "MomoVideoSDK/3.0.6"
+    }
+}
