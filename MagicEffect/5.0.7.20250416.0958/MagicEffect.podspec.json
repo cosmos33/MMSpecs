@@ -1,0 +1,48 @@
+{
+    "name": "MagicEffect",
+    "version": "5.0.7.20250416.0958",
+    "summary": "\u9b54\u6cd5\u7279\u6548SDK",
+    "description": "\u5305\u542b\u4e86\u7b97\u6cd5\u68c0\u6d4b\u548c\u6e32\u67d3\u7684\u6240\u6709\u529f\u80fd",
+    "homepage": "https://git.wemomo.com/MOEngine/ARStudio",
+    "authors": {
+        "HongjieFu": "fu.hongjie@immomo.com"
+    },
+    "source": {
+        "http": "https://download.immomo.com/cosmos/magic_effect/5.0.7.20250416.0958.zip"
+    },
+    "license": {
+        "type": "None"
+    },
+    "platforms": {
+        "ios": "13.0"
+    },
+    "module_name": "MagicEffect",
+    "frameworks": [
+        "Foundation",
+        "Metal",
+        "MetalKit",
+        "CoreVideo"
+    ],
+    "dependencies": {
+        "MMCV": [],
+        "LightningRender": [],
+        "XEngineAR": []
+    },
+    "libraries": "c++",
+    "static_framework": true,
+    "public_header_files": "Headers/**/*.h",
+    "source_files": [
+        "Headers/**/*.h",
+        "Sources/*.m"
+    ],
+    "vendored_libraries": [
+        "Libraries/*.a"
+    ],
+    "requires_arc": true,
+    "xcconfig": {
+        "ENABLE_BITCODE": "NO",
+        "SUPPORTS_MACCATALYST": "NO",
+        "GCC_ENABLE_CPP_EXCEPTIONS": "NO",
+        "GCC_ENABLE_OBJC_EXCEPTIONS": "NO"
+    }
+}
