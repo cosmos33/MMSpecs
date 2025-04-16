@@ -1,0 +1,58 @@
+{
+    "name": "XESceneKit",
+    "version": "5.0.7.20250416.0958",
+    "summary": "A short description of XEngine",
+    "description": "XEngine is a 3D Game Engine For iOS.",
+    "homepage": "https://git.wemomo.com/MOEngine/ARStudio",
+    "license": {
+        "type": "None"
+    },
+    "authors": {
+        "HongjieFu": "fu.hongjie@immomo.com"
+    },
+    "platforms": {
+        "ios": "13.0"
+    },
+    "module_name": "XESceneKit",
+    "static_framework": true,
+    "source": {
+        "http": "https://download.immomo.com/cosmos/xengine/5.0.7.20250416.0958.zip"
+    },
+    "public_header_files": [
+        "Headers/IXEngine.h",
+        "Headers/XSKAudioPlayer.h",
+        "Headers/XESceneKit.h",
+        "Headers/XEGameView.h",
+        "Headers/XEnginePreferences.h",
+        "Headers/XSKScriptBridge.h",
+        "Headers/XSKScriptEngine.h",
+        "Headers/Deprecated/XSKEngine+Lua.h",
+        "Headers/Deprecated/XSKEngine.h"
+    ],
+    "source_files": [
+        "Headers/**/*.h",
+        "Sources/*.m"
+    ],
+    "vendored_libraries": [
+        "Libraries/*.a"
+    ],
+    "frameworks": [
+        "Foundation",
+        "Metal",
+        "MetalKit",
+        "CoreMotion"
+    ],
+    "libraries": [
+        "c++",
+        "iconv",
+        "z"
+    ],
+    "dependencies": {
+        "luajit": [],
+        "libpng": []
+    },
+    "xcconfig": {
+        "ENABLE_BITCODE": "NO"
+    },
+    "resources": "XEngine.bundle"
+}
