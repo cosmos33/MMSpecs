@@ -1,0 +1,35 @@
+{
+    "name": "LightningRender",
+    "version": "5.0.7.20250423.1135",
+    "summary": "engine render",
+    "description": "this framework use to render",
+    "homepage": "https://git.wemomo.com/MOEngine/ARStudio",
+    "license": {
+        "type": "MIT",
+        "file": "LICENSE"
+    },
+    "authors": {
+        "HongjieFu": "fu.hongjie@immomo.com"
+    },
+    "source": {
+        "http": "https://download.immomo.com/cosmos/lightningrender/5.0.7.20250423.1135.zip"
+    },
+    "platforms": {
+        "ios": "13.0"
+    },
+    "module_name": "LightningRender",
+    "static_framework": true,
+    "public_header_files": "Headers/**/*.h",
+    "source_files": [
+        "Headers/**/*.h",
+        "Sources/*.m"
+    ],
+    "vendored_libraries": [
+        "Libraries/*.a"
+    ],
+    "resources": "XEngineResource.bundle",
+    "libraries": "c++",
+    "dependencies": {
+        "XESceneKit": []
+    }
+}
