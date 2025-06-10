@@ -1,0 +1,48 @@
+{
+    "name": "Protobuf",
+    "version": "3.6.1.mm.1",
+    "summary": "Protocol Buffers v.3 runtime library for Objective-C.",
+    "homepage": "https://github.com/google/protobuf",
+    "license": "3-Clause BSD License",
+    "authors": {
+        "The Protocol Buffers contributors": "protobuf@googlegroups.com"
+    },
+    "cocoapods_version": ">= 1.0",
+    "source": {
+        "http": "https://pivot-dispatcher.wemomo.com/iospod/2C/83/2C83FB15-3F6D-4954-8811-62C410583F5320240407.zip"
+    },
+    "source_files": [
+        "objectivec/*.{h,m}",
+        "objectivec/google/protobuf/Any.pbobjc.{h,m}",
+        "objectivec/google/protobuf/Api.pbobjc.{h,m}",
+        "objectivec/google/protobuf/Duration.pbobjc.{h,m}",
+        "objectivec/google/protobuf/Empty.pbobjc.{h,m}",
+        "objectivec/google/protobuf/FieldMask.pbobjc.{h,m}",
+        "objectivec/google/protobuf/SourceContext.pbobjc.{h,m}",
+        "objectivec/google/protobuf/Struct.pbobjc.{h,m}",
+        "objectivec/google/protobuf/Timestamp.pbobjc.{h,m}",
+        "objectivec/google/protobuf/Type.pbobjc.{h,m}",
+        "objectivec/google/protobuf/Wrappers.pbobjc.{h,m}"
+    ],
+    "exclude_files": "objectivec/GPBProtocolBuffers.m",
+    "resource_bundles": {
+        "Protobuf_Privacy": "PrivacyInfo.xcprivacy"
+    },
+    "user_target_xcconfig": {
+        "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1"
+    },
+    "pod_target_xcconfig": {
+        "GCC_PREPROCESSOR_DEFINITIONS": "$(inherited) GPB_USE_PROTOBUF_FRAMEWORK_IMPORTS=1"
+    },
+    "platforms": {
+        "ios": "7.0",
+        "osx": "10.9",
+        "tvos": "9.0",
+        "watchos": "2.0"
+    },
+    "requires_arc": false,
+    "origin_source": {
+        "git": "https://git.wemomo.com/ios/ThirdPartyLibrary/protobuf.git",
+        "tag": "momo_3.6.1.mm.1"
+    }
+}
